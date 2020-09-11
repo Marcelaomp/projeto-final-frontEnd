@@ -1,0 +1,11 @@
+/* Botão contato */
+.botao-contato {position:fixed; bottom:180px; right:20px; z-index:300; cursor:pointer;}
+.botao-contato-item {width:60px; height:60px; position:relative; bottom:0; right:0; background-color:#ffa400; border-radius:50%; text-align:center; font-size:35px; z-index:200; line-height:65px;}
+.botao-contato-mensagem {width:250px; height:auto; padding:10px; background:#fff; visibility:hidden; opacity:0; border-radius:5px; box-shadow:0 0 5px #888; position:absolute; bottom:50%; right:0; transition:all 200ms linear;}
+.botao-contato-fechar {width:30px; height:30px; background:#ff0000; color:#fff; position:absolute; top:2px; right:2px; font-weight:bold; border-radius:50%; text-align:center; line-height:25px;}
+
+.caixaaberta {visibility:visible; opacity:1; bottom:110%;}
+.contato-form {width:100%; border:0; padding:5px; border-bottom:2px solid #ffa400;}
+.contato-form:focus {outline:none;}
+.contato-botao {width:100%; background:orange; color:#fff; border:0;}
+.form-container {margin:5px 0;}

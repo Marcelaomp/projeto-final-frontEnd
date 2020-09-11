@@ -1,0 +1,38 @@
+figcaption{text-align: center;}
+
+#cards .col-md-4 {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.card{
+    border: 1px solid #cecece;
+    overflow: hidden;
+    background-color: #ddddda;
+    border-radius: 5px;
+}
+.card p{
+    font-size: 12px;
+    margin: 10px 10px 10px 10px;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.img {
+    margin: 10px 10px 10px 10px;
+    transition:all 50ms linear;
+}
+
+.img:hover {transform: scale(1.1);}
+
+.imgs {text-align: center;}
+
+.btn{
+    margin: 10px 5px;
+
+}
+

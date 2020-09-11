@@ -1,0 +1,145 @@
+* {
+    margin:0; 
+    font-family:'Open Sans', sans-serif;    
+}
+
+body{
+    margin-top: 53px;
+}
+
+::selection {background-color: #ffc400;}
+
+div.barra1, div.barra2{
+    background-color: orange;
+    margin-top: 50px;
+    color: white;
+}
+
+div.barra1{
+    color: orange;
+}
+
+img.principal {
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-indent: 40px;
+    text-align: justify;
+}
+
+footer {
+    background-color: orange;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+.nav li {
+    margin-left: 40px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.laranja {    
+    background-color: orange;
+}
+
+.h1, h1, .h2, h2 .h3, h3{
+    font-family:'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.h2, h2{
+    font-size:38px;
+    margin-bottom: 50px;
+    
+}
+.p, p, nav {
+    font-size: 18px;   
+}
+
+.botao-login{
+    position:fixed;
+    top:5px;
+    /* right:5px;  */
+    z-index:300; 
+    cursor:pointer;
+}
+.botao-login-item {
+    width:40px;
+    height:40px;
+    position:relative;
+    top:0;
+    right:0;
+    background-color:#ffa400;
+    border-radius:50%;
+    text-align:center;
+    font-size:40px;
+    z-index:300;
+    line-height:25px;
+}
+
+.botao-login-abrir{width:250px; height:auto; padding:10px; background:#fff; visibility:hidden; opacity:0; border-radius:5px; box-shadow:0 0 5px #888; position:absolute; top:115%; left:0; transition:all 200ms linear;}
+
+.botao-login-fechar {width:30px; height:30px; background:#ff0000; color:#fff; position:absolute; top:2px; right:2px; font-weight:bold; border-radius:50%; text-align:center; line-height:25px;}
+
+.loginAberto{visibility:visible; opacity:1; top:110%;}
+
+.login-form {width:100%; border:0; padding:5px; border-bottom:2px solid #ffa400;}
+.login-form:focus {outline:none;}
+.login-botao {width:100%; background:orange; color:#fff; border:0;}
+.form-container2 {margin:5px 0;}
+
+.esconder{
+    visibility: hidden;
+}
+
+.redes{
+    left: 100px;
+}
+
+.redes span{
+    margin: 30px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    margin: 20px;
+}
+
+.contato {
+    list-style: none;
+    padding-top: -10px;
+    float: left;
+    font-size: 14px;
+}
+
+.orgao{
+    vertical-align: middle;
+}
+
+.orgao p{
+    font-size:16px;
+    text-align: center;
+}
+
+.contato a{
+    color:black;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+    float:none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    }
+}

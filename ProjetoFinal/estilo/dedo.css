@@ -1,0 +1,18 @@
+#titulo{
+    margin-bottom: 50px;
+}
+#Dedo-de-Deus1{
+    margin: 20px 20px 20px 0;
+    float: left;
+}
+
+#Dedo-de-Deus2{
+    margin: 20px 0 20px 20px;
+     float: right 
+}
+
+#botao{
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+}

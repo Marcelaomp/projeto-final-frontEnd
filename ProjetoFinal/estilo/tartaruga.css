@@ -1,0 +1,21 @@
+#titulo{
+    margin-bottom: 50px;
+}
+#tartaruga3{
+    margin: 50px 0;
+    text-align: center;
+}
+#tartaruga4{
+    margin: 20px 0 20px 20px;
+     float: right 
+ }
+
+#tartaruga5{
+    margin: 20px 20px 20px 0;
+     float: left 
+ }
+#botao{
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+}
